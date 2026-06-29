@@ -1,21 +1,23 @@
 {
-  "name": "nodejs-argo",
-  "version": "1,0,0",
-  "description": "Thsi is a node project",
+  "name": "nodejs-sb",
+  "version": "1.0.0",
+  "description": "nodejs",
   "main": "index.js",
   "author": "eooce",
   "repository": "",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "node index.js",
     "start": "node index.js"
   },
   "dependencies": {
     "axios": "latest",
-    "express": "^4.18.2"
+    "dotenv": "latest",
+    "express": "latest"
   },
   "engines": {
     "node": ">=14"
   }
 }
+  
+
